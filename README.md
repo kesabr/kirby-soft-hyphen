@@ -1,6 +1,6 @@
 # Kirby Soft Hyphen
 
-[![Kirby 4](https://img.shields.io/badge/Kirby-4-CF0B3F)](https://getkirby.com) [![Kirby 5](https://img.shields.io/badge/Kirby-5-CF0B3F)](https://getkirby.com)
+[![Kirby 4](https://img.shields.io/badge/Kirby-4-CF0B3F)](https://getkirby.com) [![Kirby 5](https://img.shields.io/badge/Kirby-5-CF0B3F)](https://getkirby.com) [![Packagist](https://img.shields.io/packagist/v/kesabr/kirby-soft-hyphen)](https://packagist.org/packages/kesabr/kirby-soft-hyphen)
 
 Take control of hyphenation — place soft hyphens exactly where you want them, right from the panel. Soft hyphens are invisible in the browser but tell the browser to break and hyphenate at that position when the line is too long. No more relying on automatic hyphenation algorithms that break words in the wrong place.
 
@@ -8,7 +8,13 @@ The plugin adds a **soft hyphen button to the Writer toolbar**.
 
 ## Installation
 
-Drop the `kirby-soft-hyphen` folder into `site/plugins/` of your Kirby project.
+**Via Composer:**
+
+```bash
+composer require kesabr/kirby-soft-hyphen
+```
+
+**Manual:** Drop the `kirby-soft-hyphen` folder into `site/plugins/` of your Kirby project.
 
 ## Features
 
