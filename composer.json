@@ -1,0 +1,12 @@
+{
+  "name": "kesabr/kirby-soft-hyphen",
+  "description": "Helper to use a designated character in the panel to create a soft hyphen in the frontend",
+  "version": "1.0.0",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kenan Brunner"
+    }
+  ]
+}
