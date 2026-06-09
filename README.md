@@ -4,7 +4,7 @@
 
 Take control of hyphenation — place soft hyphens exactly where you want them, right from the panel. Soft hyphens are invisible in the browser but tell the browser to break and hyphenate at that position when the line is too long. No more relying on automatic hyphenation algorithms that break words in the wrong place.
 
-The plugin adds a **soft hyphen button to the Writer toolbar**. Inserted soft hyphens appear as a small visible tick mark directly in the editor, so they can be spotted and removed without digging through raw HTML. For text and textarea fields, a `||` shorthand is available as an alternative input method.
+The plugin adds a **soft hyphen button to the Writer toolbar**.
 
 ## Installation
 
