@@ -6,13 +6,17 @@ Take control of hyphenation — place soft hyphens exactly where you want them, 
 
 The plugin adds a **soft hyphen button to the Writer toolbar**. Inserted soft hyphens appear as a small visible tick mark directly in the editor, so they can be spotted and removed without digging through raw HTML. For text and textarea fields, a `||` shorthand is available as an alternative input method.
 
-## Requirements
-
-- Kirby 4 or 5
-
 ## Installation
 
 Drop the `kirby-soft-hyphen` folder into `site/plugins/` of your Kirby project.
+
+## Features
+
+- A soft hyphen button for the Writer field.
+- Soft hyphens are highlighted inside the Writer.
+- `->softHyphen()` field method to clean soft hyphen markup before frontend output.
+- `||` shorthand for inserting soft hyphens in text and textarea fields.
+
 
 ## Usage
 
@@ -26,11 +30,9 @@ fields:
     type: writer
     marks:
       - bold
-      - italic
+      - # your marks
       - softHyphen
 ```
-
-A soft hyphen button appears in the Writer toolbar. Click it to insert a soft hyphen at the cursor position. Soft hyphens are highlighted as a small tick mark in the editor so they remain visible and easy to remove.
 
 ### Field method `->softHyphen()`
 
